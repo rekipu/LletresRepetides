@@ -5,7 +5,7 @@ public class Fase2 {
 	public static void main(String args[]) {
 		
 		String name= "Joan Manel Ardura Terra";
-		List<Character> nameList = new ArrayList<Character>();
+		List<Character> nameList = new ArrayList<>();
 		for (int i=0; i<name.length();i++) {
 			char caracter=name.charAt(i);
 			nameList.add(caracter);
